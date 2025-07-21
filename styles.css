@@ -107,7 +107,7 @@ h1, h2 {
 }
 
 .section {
-  padding: 100px 20px;
+  padding: 80px 20px;
   max-width: 1000px;
   margin: 0 auto;
   opacity: 0;
@@ -217,6 +217,10 @@ h1, h2 {
 .education-item .university, .education-item .dates, .education-item .details, .education-item .diplomas {
   font-size: 0.95rem;
   color: #555;
+}
+
+.education-item .university, .education-item .dates {
+  font-weight: 900;
 }
 
 .language-skill {
